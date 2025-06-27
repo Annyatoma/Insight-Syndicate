@@ -1,3 +1,5 @@
+# 👤 Gender Classification Under Challenging Conditions – COMSYS-2025 Hackathon (Task A)  and 🚀 Task B: Face Recognition - COMSYS 2025 FACECOM Challenge
+
 # 👤 Gender Classification Under Challenging Conditions – COMSYS-2025 Hackathon (Task A)
 
 This project addresses **Task A** of the COMSYS-2025 Hackathon: binary gender classification of face images captured under visually degraded real-world conditions using a ResNet50-based architecture in PyTorch.
@@ -111,6 +113,9 @@ Team Member         	Role
 SOUMABRATA BHOWMIK	    ML & Deep Learning (Model Design, Training, Optimization)
 ANNYATOMA DAS	        Dataset Setup, Evaluation, Metric Analysis & Submission
 SAHELI MONDAL	        Testing, Packaging, Analysis, Documentation
+
+
+
 # 🚀 Task B: Face Recognition - COMSYS 2025 FACECOM Challenge
 
 This project implements a robust **multi-class face recognition system** for distorted and clean facial images using deep learning. It uses a **ResNet-50**-based embedding extractor and cosine similarity for evaluation.

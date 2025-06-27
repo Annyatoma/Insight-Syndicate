@@ -116,7 +116,7 @@ SAHELI MONDAL	        Testing, Packaging, Analysis, Documentation
 
 
 
-# 🚀 Task B: Face Recognition - COMSYS 2025 FACECOM Challenge
+## 🚀 Task B: Face Recognition - COMSYS 2025 FACECOM Challenge
 
 This project implements a robust **multi-class face recognition system** for distorted and clean facial images using deep learning. It uses a **ResNet-50**-based embedding extractor and cosine similarity for evaluation.
 

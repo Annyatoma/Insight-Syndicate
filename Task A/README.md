@@ -23,7 +23,7 @@ Images are annotated into two classes:
 
 ## 🚀 Model Architecture
 
-Here is a diagram representing the model architecture:
+Here is a diagram representing the model Gender Classification Task A:
 ![Model Architecture](Diagram_Gender_Classification_Model_Task_A.png)
 We use **ResNet-50** pretrained on ImageNet as the feature extractor, followed by a custom neural network classifier.
 

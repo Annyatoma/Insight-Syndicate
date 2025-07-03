@@ -129,7 +129,7 @@ This project is part of the COMSYS-2025 Hackathon organized by COMSYS Educationa
 We aim to contribute toward building robust facial analysis systems under real-world challenging visual conditions.
 
 🧠 Authors & Team Roles
-Team Member         	Role
-SOUMABRATA BHOWMIK	    ML & Deep Learning (Model Design, Training, Optimization)
-ANNYATOMA DAS	        Dataset Setup, Evaluation, Metric Analysis & Submission
-SAHELI MONDAL	        Testing, Packaging, Analysis, Documentation
+Team Member         	    Role
+SOUMABRATA BHOWMIK	        ML & Deep Learning (Model Design, Training, Optimization)
+ANNYATOMA DAS	            Dataset Setup, Evaluation, Metric Analysis & Submission
+SAHELI MONDAL	            Testing, Packaging, Analysis, Documentation

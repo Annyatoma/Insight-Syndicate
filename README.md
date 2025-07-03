@@ -173,6 +173,10 @@ pip install -r requirements.txt
 
 📓 How the Code Works
 
+Here is a diagram representing the model Face Recognition System Task B:
+![Model Architecture](Diagram_Face_Recognition_Model_Task_B.png)
+
+
 1. Data Preparation
 
 Uses a custom FaceRecognitionDataset to load clean and distorted images.

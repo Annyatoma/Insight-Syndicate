@@ -1,5 +1,11 @@
 # 👤 Gender Classification Under Challenging Conditions – COMSYS-2025 Hackathon (Task A)  and 🚀 Task B: Face Recognition - COMSYS 2025 FACECOM Challenge
 
+Here is a diagram representing the model Gender Classification Task A:
+![Model Architecture](Diagram_Gender_Classification_Model_Task_A.png)
+
+Here is a diagram representing the model Face Recognition System Task B:
+![Model Architecture](Diagram_Face_Recognition_Model_Task_B.png)
+
 # 👤 Gender Classification Under Challenging Conditions – COMSYS-2025 Hackathon (Task A)
 
 This project addresses **Task A** of the COMSYS-2025 Hackathon: binary gender classification of face images captured under visually degraded real-world conditions using a ResNet50-based architecture in PyTorch.
@@ -24,8 +30,6 @@ Images are annotated into two classes:
 ---
 
 ## 🚀 Model Architecture
-Here is a diagram representing the model Gender Classification Task A:
-![Model Architecture](Diagram_Gender_Classification_Model_Task_A.png)
 
 We use **ResNet-50** pretrained on ImageNet as the feature extractor, followed by a custom neural network classifier.
 

@@ -27,6 +27,10 @@ Task_B/
 
 ---
 
+Here is a diagram representing the model Face Recognition System Task B:
+![Model Architecture](Diagram_Face_Recognition_Model_Task_B.png)
+
+
 ## 📌 Objective
 
 - Train a **ResNet-50** classifier to extract embeddings for each identity.

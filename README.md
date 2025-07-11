@@ -150,13 +150,13 @@ F1-Score: 0.9989
 
 🧠 Authors & Team Roles
 
-Team Member         	     Role
+Team Member         	&     Role
 
-SOUMABRATA BHOWMIK	         ML & Deep Learning (Model Design, Training, Optimization)
+SOUMABRATA BHOWMIK	     :    ML & Deep Learning (Model Design, Training, Optimization)
 
-ANNYATOMA DAS	             Dataset Setup, Evaluation, Metric Analysis & Submission
+ANNYATOMA DAS	         :   Dataset Setup, Evaluation, Metric Analysis & Submission
 
-SAHELI MONDAL	             Testing, Packaging, Analysis, Documentation
+SAHELI MONDAL	         :  Testing, Packaging, Analysis, Documentation
 
 
 

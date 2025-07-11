@@ -146,6 +146,12 @@ Embedding Extractor: Uses cosine similarity for distorted vs clean matching
 
 Transform: Resize(224, 224) → ToTensor() → Normalization
 
+📊 Evaluation Metrics on Training Set:
+  - Accuracy : 1.0000
+  - Precision: 1.0000
+  - Recall   : 1.0000
+  - F1-Score : 1.0000
+
 Metric Evaluation on the val dataset:
 
 Accuracy: 0.9990

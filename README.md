@@ -100,7 +100,7 @@ Data Augmentation: Applied during training (crop, flip, jitter)
 
 Transform during test: Resize(256) → CenterCrop(224) 
 
-📊 Evaluation on Training Set:(During the tarining of the model)
+📊 Evaluation on Training Set:(During the training of the model)
   - Accuracy : 0.9346
   - Precision: 0.9426
   - Recall   : 0.9821

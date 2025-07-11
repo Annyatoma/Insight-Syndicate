@@ -85,7 +85,7 @@ Task B (Face Recognition): person-wise folders with distortion/ subfolders.
 
 The test.py script automatically detects the task based on the folder contents and applies the appropriate evaluation pipeline.
 
-Model weights must be placed in the same directory or provided
+Model weights must be placed in the same directory.
 
 The evaluation works on both CPU and GPU seamlessly.
 

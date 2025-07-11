@@ -111,7 +111,7 @@ Metric Evaluation on the train dataset: (During testing through the test.py)
   - Precision: 0.9868
   - Recall   : 0.9661
   - F1-Score : 0.9763
-  - 
+
 Metric Evaluation on the val dataset:
 
 Accuracy: 0.9455

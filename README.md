@@ -100,6 +100,18 @@ Data Augmentation: Applied during training (crop, flip, jitter)
 
 Transform during test: Resize(256) → CenterCrop(224) 
 
+📊 Evaluation on Training Set:(During the tarining of the model)
+  - Accuracy : 0.9346
+  - Precision: 0.9426
+  - Recall   : 0.9821
+  - F1-Score : 0.9620
+
+Metric Evaluation on the train dataset: (During testing through the test.py)
+  - Accuracy : 0.9605
+  - Precision: 0.9868
+  - Recall   : 0.9661
+  - F1-Score : 0.9763
+  - 
 Metric Evaluation on the val dataset:
 
 Accuracy: 0.9455

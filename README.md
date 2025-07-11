@@ -77,6 +77,19 @@ python test.py --test_dir ./test_faces
 
 📝 Notes for Reproducing Submitted Results
 
+Ensure the test dataset follows the expected folder structure:
+
+Task A (Gender Classification): male/, female/
+
+Task B (Face Recognition): person-wise folders with distortion/ subfolders.
+
+The test.py script automatically detects the task based on the folder contents and applies the appropriate evaluation pipeline.
+
+Model weights must be placed in the same directory or provided via --weights.
+
+The evaluation works on both CPU and GPU seamlessly.
+
+
 ✅ Task A: Gender Classification
 
 Model: ResNet-50 with custom classifier head
@@ -96,6 +109,18 @@ Precision: 0.9651
 Recall: 0.9679
 
 F1-Score: 0.9665
+
+⚠️ Note on Slight Metric Differences for Task A (Training Set)
+
+During training, evaluation on the training set used augmented data transformations (e.g., RandomResizedCrop, HorizontalFlip, ColorJitter, etc.) consistent with the training pipeline.
+
+However, in the unified test.py script, a fixed transformation is applied:
+transforms.Resize(256),
+transforms.CenterCrop(224),
+
+This fixed and cleaner transformation improves the quality of input images during evaluation, which results in slightly higher evaluation metrics (Accuracy, Precision, Recall, F1-score) when testing on the training set using test.py.
+
+✅ Validation and test set metrics remain consistent, since the same fixed transforms were used during training and evaluation.
 
 📌 To reproduce: Load Gender_Classification_model.pt and run on any dataset structured with male/ and female/ subfolders.
 

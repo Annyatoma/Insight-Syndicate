@@ -123,6 +123,7 @@ This fixed and cleaner transformation improves the quality of input images durin
 ✅ Validation and test set metrics remain consistent, since the same fixed transforms were used during training and evaluation.
 
 📌 To reproduce: Load Gender_Classification_model.pt and run on any dataset structured with male/ and female/ subfolders.
+
 ✅ Ensure that test.py and Gender_Classification_model.pt are located in the same directory, as given in the GitHub repository, or update the path in test.py accordingly.
 
 ✅ Task B: Face Recognition
@@ -144,12 +145,17 @@ Recall: 0.9991
 F1-Score: 0.9989
 
 📌 To reproduce: Load face_recognition_model.pt and run on dataset structured by person folders, each with clean images and a distortion/ subfolder.
+
 ✅ Ensure that test.py and face_recognition_model.pt are located in the same directory, as given in the GitHub repository, or update the path in test.py accordingly.
 
 🧠 Authors & Team Roles
+
 Team Member         	Role
+
 SOUMABRATA BHOWMIK	    ML & Deep Learning (Model Design, Training, Optimization)
+
 ANNYATOMA DAS	        Dataset Setup, Evaluation, Metric Analysis & Submission
+
 SAHELI MONDAL	        Testing, Packaging, Analysis, Documentation
 
 
